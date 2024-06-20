@@ -24,7 +24,7 @@ The Chrome extension listens for downloads and renames the file based on the URL
 
 ## How to Use
 
-1. Navigate to [Ion Reporter](https://ionreporter.thermofisher.com/ir/secure/irgv/getIRGVLightwindow.html).
+1. Navigate to [Ion Reporter](https://ionreporter.thermofisher.com).
 2. The TamperMonkey script will inject a download link into the page.
 3. Click the download link. The Chrome extension will rename the file based on the URL.
 
