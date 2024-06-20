@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "BAM File Renamer",
+  "version": "1.0",
+  "description": "Renames BAM files based on URL",
+  "permissions": [
+    "downloads",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
