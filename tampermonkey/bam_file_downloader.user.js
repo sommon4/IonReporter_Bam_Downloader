@@ -23,7 +23,7 @@
         const a = document.createElement('a');
         a.href = url;
         a.download = filename + '.bam';
-        a.textContent = 'Download BAM file';
+        a.textContent = 'Download ptrim.BAM file';
         a.style.position = 'fixed';
         a.style.top = '10px';
         a.style.right = '10px';
