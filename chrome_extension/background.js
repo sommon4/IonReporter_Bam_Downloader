@@ -3,6 +3,6 @@ chrome.downloads.onDeterminingFilename.addListener(function(item, suggest) {
   if (url.includes('/outputs/VariantCallerActor-00/merged.bam.ptrim.bam')) {
     const parts = url.split('/');
     const filename = parts[parts.length - 5]; // Extract the sample name
-    suggest({ filename: filename + '.bam' });
+    suggest({ filename: filename + '.ptrim' + '.bam' });
   }
 });
